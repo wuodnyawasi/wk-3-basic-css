@@ -1,0 +1,99 @@
+/* General reset */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styling */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: beige;
+    color: blue;
+    padding: 20px;
+}
+
+/* Header styling */
+
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header .para {
+    font-size: 1rem;
+    margin-top: 8px;
+    color: beige;
+}
+
+/* navigation */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-align: none;
+    color: blue;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+
+nav a:hover,
+nav a:focus {
+    background: #e3b071;
+    color: white;
+    outline: none;
+}
+
+/* intro section */
+
+.introduction {
+    background: white;
+    padding: 20px;
+    border: ipx solid #add;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/*cards */
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 1;
+    background: white;
+    padding: 16px;
+    border: 2px solid #e3b071;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+/* footer */
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: rgb(249, 4, 69);
+}

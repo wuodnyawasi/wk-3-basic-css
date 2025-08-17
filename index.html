@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="viewport" content="assignment " >
+    <title> CSS BOX DEMO </title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header role="banner">
+
+        <h1> Box model demo </h1>
+        <p class="para"> This is simple html to demonstrate the css box model.</p>
+
+
+    </header>
+
+    <nav role="navigation" aria-label="Main navigation">
+
+        <ul>
+
+        <li><a href="#Home" aria-content="page">Home</a></li>
+        <li><a href="#About" >About</a></li>
+        <li><a href="#Contact">Contact us</a></li>
+
+        </ul>
+    </nav>
+    <main id="Home"role= "main">
+
+        <section class="introduction" aria-labelledby="welcome">
+
+            <h1>Welcome again</h1>
+            <p>This is our home page to demonstarte the css box model.</p>
+        </section>
+
+         <section class="cards" aria-labelledby="headings">
+
+            <h2 id="card-headings"> Key Concepts</h1> 
+                <article class="card">
+                    <h3> Card one: Spacing</h3>
+                    <p>Padding, borders, margins control and spacing around elements.</p>
+                </article>
+                   <article class="card">
+                    <h3> Card two: layout</h3>
+                    <p>Advantage of box model is that it ensures the page is sized well and the layout is consistent.</p>
+                </article>
+                   <article class="card">
+                    <h3> Card three: Styling</h3>
+                    <p>The benefit of external css is that it is reusable.</p>
+                </article>
+            
+        </section>
+    </main>
+
+    <footer role="info">
+        <p>&copy; 2025 css box model</p>
+    </footer>
+</body>
+
+</html>
